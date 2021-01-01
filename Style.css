@@ -1,6 +1,9 @@
 
 body{
     background: rgb(148, 120, 175);
+    font-family: Verdana;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .photo{
@@ -9,7 +12,12 @@ body{
 }
 
 #title, .subtitle, .post_title{
-    color: rgb(41, 41, 139);
+    color: rgb(0, 0, 0);
+}
+
+#title{
+    font-size: 40px;
+
 }
 
 .post_title{
@@ -31,8 +39,11 @@ body{
 .post_content{
     margin: 0;
     margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: justify;
 }
 
 .post_image{
     margin-bottom: 15px;
+    width: 100%;
 }
